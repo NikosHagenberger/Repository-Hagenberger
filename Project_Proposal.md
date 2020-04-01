@@ -1,10 +1,8 @@
 **Project Proposal**
 
-
 **About us**
 
 We, Stefan Oswald (16) and Nikos Hagenberger (16) are two students of the HTBLA Leonding. We are currently in second grade and very interested in programming. In the subject    "WEBT ", we got the exercise, to make a website. Of course, this is a big task, but we also have a lot of time for it. The time period for it is the whole second grade, which means from 9.9 - 11.7. 
-
 
 **The Project Approach Summary**
 
@@ -14,6 +12,13 @@ Our two-man team is very organized. We use mediums like GitHub, Discord etc. so 
 •	The markdown language "HTML", for the "skeleton" of the website
 We also have the knowledge in C, C++ and C#.
 If we notice something, we don't like, we directly change this. So, our website is every time updated. 
+
+
+
+
+
+
+
 
 
 **Project Summary**
