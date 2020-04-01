@@ -14,13 +14,6 @@ We also have the knowledge in C, C++ and C#.
 If we notice something, we don't like, we directly change this. So, our website is every time updated. 
 
 
-
-
-
-
-
-
-
 **Project Summary**
 
 The main goal of our website is to tell the readers something about different types of sport. We describe six various types: Basketball, Ice Hockey, Skiing, Soccer and Swimming. About this sport we write something like rules of sports, the stuff you need to do it, how it works, championships, player and so on.
