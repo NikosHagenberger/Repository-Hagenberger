@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="Styles/index.css">
-<link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico"/>
-  <title>Sports</title>
-</head>
+<title>Sport</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<ul>
-    <li class="navi"><a class="types" href="types.html">Types of sports</a></li>
-    <li class="navi"><a class="home" href=index.html>Home</a></li>
-    <li class="navi" style="float:right"><a class="imprint" href="imprint.html">Imprint</a></li>
-</ul>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="Soccer.html" class="w3-bar-item w3-button">Soccer</a>
+  <a href="Basketball.html" class="w3-bar-item w3-button">Basketball</a>
+  <a href="IceHockey.html" class="w3-bar-item w3-button">Ice Hockey</a>
+  <a href="Tennis.html" class="w3-bar-item w3-button">Tennis</a>
+  <a href="Skiing.html" class="w3-bar-item w3-button">Skiing</a>
+  <a href="Swimming.html" class="w3-bar-item w3-button">Swimming</a>
+  <a href="imprint.html" class="w3-bar-item w3-button">Imprint</a>
+  <a href="login.html" class="w3-bar-item w3-button">login</a>
 
-<h1>
-  Sports
-</h1>
+</div>
+
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <p id="setUsername"></p>
+    <h1>Sports</h1>
+  </div>
+</div>
+
+<img src="https://www.percuris.nl/shared/content/uploads/2018/10/Vacature-medewerker-beheer-en-uitgifte-sportmateriaal.jpg" alt="Car" style="width:100%; height:100%;">
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
 
 </body>
-</html>
-
-<style>
-body
-{
-  background-image: url("Images/main.jpg"); /* Sets a background image */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.home
-{
-  background-color: #4CAF50;
-}
-</style>

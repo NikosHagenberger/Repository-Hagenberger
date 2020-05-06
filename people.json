@@ -1,0 +1,41 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "username": "abcd1",
+      "password": "test123"
+    },
+    {
+      "username": "stefan",
+      "password": "test",
+      "id": "C_9kzbV"
+    },
+    {
+      "username": "alois",
+      "password": "test",
+      "id": "-IBqFBR"
+    },
+    {
+      "username": "Nikos",
+      "password": "test",
+      "id": "indJLdw"
+    }
+  ],
+  "loggedIn": [
+    {
+      "username": "stefan",
+      "password": {},
+      "id": 1
+    },
+    {
+      "username": "stefan",
+      "password": {},
+      "id": 4
+    },
+    {
+      "username": "stefan",
+      "password": {},
+      "id": 5
+    }
+  ]
+}
